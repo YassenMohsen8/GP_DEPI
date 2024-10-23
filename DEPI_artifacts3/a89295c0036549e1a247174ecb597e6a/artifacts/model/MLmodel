@@ -1,0 +1,29 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.16.2
+model_size_bytes: 943
+model_uuid: 55564721273a4c76be5161dee17b0a00
+run_id: a89295c0036549e1a247174ecb597e6a
+signature:
+  inputs: '[{"type": "double", "name": "step", "required": true}, {"type": "long",
+    "name": "type_1", "required": true}, {"type": "long", "name": "type_2", "required":
+    true}, {"type": "long", "name": "type_3", "required": true}, {"type": "long",
+    "name": "type_4", "required": true}, {"type": "long", "name": "type_5", "required":
+    true}, {"type": "double", "name": "amount", "required": true}, {"type": "double",
+    "name": "isFlaggedFraud", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-10-20 20:21:40.132167'

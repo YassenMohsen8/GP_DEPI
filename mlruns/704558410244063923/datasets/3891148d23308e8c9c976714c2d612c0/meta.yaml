@@ -1,0 +1,12 @@
+digest: 4ec87259
+name: dataset
+profile: '{"num_rows": 13770, "num_elements": 110160}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "step", "required": true},
+  {"type": "long", "name": "type_1", "required": true}, {"type": "long", "name": "type_2",
+  "required": true}, {"type": "long", "name": "type_3", "required": true}, {"type":
+  "long", "name": "type_4", "required": true}, {"type": "long", "name": "type_5",
+  "required": true}, {"type": "double", "name": "amount", "required": true}, {"type":
+  "double", "name": "isFlaggedFraud", "required": true}]}'
+source: '{"tags": {"mlflow.user": "hp-01", "mlflow.source.name": "c:\\Users\\hp-01\\anaconda3\\envs\\wait\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
