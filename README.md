@@ -5,7 +5,7 @@ This project aims to develop a machine learning-powered fraud detection system t
 ## 👨‍💻 Project Team
 - Mohamed Abdelhamid Mohamed
 - Abdelrhman Ashraf Abdelkarim
-- Yassin Mohsen Yassin
+- Yassen Mohsen Yassen
 - Mahmoud Hesham Shaban
 
 ## 🧑‍🏫 Supervisor
